@@ -267,6 +267,10 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
 }
 
+.p-img:hover {
+  transform: translateY(0%);
+}
+
 .app {
   font-weight: 500;
   font-size: 20px;
@@ -353,7 +357,7 @@ button:focus {
 }
 
 .f-logo {
- margin-right: 120px;
+ margin-right: 120px
 }
 
 .f-media {
@@ -411,7 +415,7 @@ button:focus {
 
 .team-icon {
 display: flex;
-gap: 16px;
+gap: 24px;
 justify-content: center;
 }
 
@@ -440,6 +444,11 @@ fill: #F4F4FD;
     background-color: #4d5ae5;
 }
 
+.icon-style:hover,
+.icon-style:focus {
+  background-color: #31d0aa;
+}
+
 .svg-link {
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 width: 100%;
@@ -449,11 +458,6 @@ border-radius: 50%;
 display: flex; 
 align-items: center;
 justify-content: center;
-}
-
-.svg-link:hover,
-.svg-link:focus {
-  background-color: #31d0aa;
 }
 
 .about-us-svg {
@@ -474,3 +478,4 @@ justify-content: center;
  margin-bottom: 8px;
 
 }
+
