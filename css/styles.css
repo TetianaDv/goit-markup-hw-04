@@ -16,7 +16,25 @@ ul, ol {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  position: relative;
 }
+
+.nav-link::before,
+.nav-link::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 
 img {
   display: block;
@@ -27,6 +45,7 @@ list-style-type: none;
 border-radius: 0 0 4px 4px;
 width: calc((100% - 48px) / 3); 
 margin: auto;
+
 }
 
 .portfolio-list {
@@ -117,6 +136,12 @@ button {
 
 .section-first {
   background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) 
+  url(../images/hero/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-position: 50% 50% center; */
+  background-size: cover;
   padding: 188px 0
 }
 
@@ -242,10 +267,6 @@ width: calc((100% - 72px) / 4);
   color: #404bbf;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
 
 button:hover,
 button:focus {
@@ -327,4 +348,40 @@ button:focus {
 
 .menu-item {
   display: flex;  
+}
+
+.team-icon{
+display: flex;
+gap: 24px;
+justify-content: center;
+}
+
+.svg-list {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4d5ae5;
+}
+
+.team-icon-svg {
+width: 16px;
+height: 16px;
+fill: #fff;
+}
+
+.about-us-svg {
+  width: 64px;
+height: 64px;
+fill: #2E2F42;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.border-svg {
+  border: #8E8F99;
+border-radius: 4px;
 }
