@@ -216,7 +216,6 @@ margin: auto;
 .team-list {
   display: flex;
   gap: 24px;
-
   padding-left: 0;
 }
 
@@ -365,12 +364,12 @@ button:focus {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .f-container {
- margin-right: 120px;
+  margin-right: 120px;
 }
+
 
 .f-media {
   font-weight: 500;
@@ -379,7 +378,6 @@ button:focus {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-
 }
 
 .header {
