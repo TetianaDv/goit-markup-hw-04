@@ -449,6 +449,12 @@ fill: #F4F4FD;
 gap: 16px;
 }
 
+.team-icon-svg:hover,
+.team-icon-svg:focus {
+  background-color: #31d0aa;
+}
+
+
 .icon-style {
   width: 100%;
   height: 100%;
