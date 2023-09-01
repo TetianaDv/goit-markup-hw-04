@@ -354,6 +354,11 @@ button:focus {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+.f-team-icon {
+display: flex;
+gap: 16px;
+justify-content: center;
+}
 
 .container-h {
   padding: 0 15px;
