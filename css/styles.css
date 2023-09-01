@@ -368,7 +368,7 @@ button:focus {
   margin-right: 120px;
 }
 
-.f-logo {
+.f-container {
  margin-right: 120px;
 }
 
@@ -426,7 +426,7 @@ button:focus {
 
 .team-icon {
 display: flex;
-gap: 14px;
+gap: 16px;
 justify-content: center;
 }
 
