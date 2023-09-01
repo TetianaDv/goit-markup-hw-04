@@ -17,6 +17,7 @@ ul, ol {
   padding: 24px 0;
   display: block;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-first::before,
@@ -46,7 +47,12 @@ list-style-type: none;
 border-radius: 0 0 4px 4px;
 width: calc((100% - 48px) / 3); 
 margin: auto;
+}
 
+
+.list-s-four:hover .p-text,
+.list-s-four:focus .p-text {
+transform: translateY(0%)
 }
 
 .portfolio-list {
@@ -61,10 +67,6 @@ row-gap: 48px;
   overflow: hidden;
 }
 
-.img-portfolio:hover .p-text,
-.img-portfolio:focus .p-text {
-transform: translateY(0%)
-}
 
 
 .text-portfolio {
@@ -256,6 +258,7 @@ width: calc((100% - 72px) / 4);
   line-height: 1.5;
   letter-spacing: 0.02em;
  text-align: center; 
+ margin-bottom: 8px;
 }
 
 .p-text {
@@ -446,14 +449,7 @@ gap: 16px;
 
 .team-icon-svg {
 fill: #F4F4FD;
-gap: 16px;
 }
-
-.team-icon-svg:hover,
-.team-icon-svg:focus {
-  background-color: #31d0aa;
-}
-
 
 .icon-style {
   width: 100%;
@@ -482,10 +478,6 @@ align-items: center;
 justify-content: center;
 }
 
-.svg-link:hover,
-.svg-link:focus {
-  background-color: #31d0aa;
-}
 
 .about-us-svg {
 fill: #2E2F42;
